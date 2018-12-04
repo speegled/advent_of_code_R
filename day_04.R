@@ -100,7 +100,9 @@ for(i in unique(dd2$V3)) {
 #' sleeping before midnight (I didn't read the whole story, was that possible?). I spent
 #' a long time implementing that and got the same "answer." Finally, I realized the answer
 #' was stored in guard and got it. (In the original version, I had a bunch of extraneous
-#' variables floating around that I had tried out and kept.)
+#' variables floating around that I had tried out and kept.) The irony is that guard was
+#' one of the better named variables that I had throughout the entire script. Next challenge,
+#' I am going to try naming things better and see whether that helps.
 
 guard * as.integer(minute) 
 
